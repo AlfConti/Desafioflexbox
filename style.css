@@ -1,0 +1,43 @@
+body {
+  background: black;
+}
+.cajas {
+  /* background: #8fbc8f; */
+  padding: 2rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.cajas-rojas {
+  background: red;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-self: flex-start;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.crself-2 {
+  align-self: flex-end;
+}
+.caja-verdes {
+  background: green;
+  width: 100px;
+  height: 100px;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.caja-azul {
+  background: blue;
+  width: 40px;
+  height: 50px;
+  display: flex;
+}
